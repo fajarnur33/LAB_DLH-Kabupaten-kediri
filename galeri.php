@@ -15,7 +15,7 @@
                 <span class="font-black text-xl tracking-tighter text-slate-800 uppercase">DLH<span class="text-green-600">GALLERY</span></span>
             </div>
             <div class="flex items-center gap-6">
-                <a href="home.php" class="text-xs font-bold text-slate-500 hover:text-green-600 uppercase tracking-widest">Kembali ke Berita</a>
+                <a href="index.php" class="text-xs font-bold text-slate-500 hover:text-green-600 uppercase tracking-widest">Kembali ke Berita</a>
             </div>
         </div>
     </nav>

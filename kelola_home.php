@@ -40,7 +40,7 @@ if (isset($_GET['hapus'])) {
             </div>
 
             <div class="flex items-center gap-3">
-                <a href="home.php" target="_blank" class="bg-blue-50 text-blue-600 px-5 py-2.5 rounded-2xl text-xs font-black flex items-center gap-2 hover:bg-blue-600 hover:text-white transition-all shadow-sm border border-blue-100">
+                <a href="index.php" target="_blank" class="bg-blue-50 text-blue-600 px-5 py-2.5 rounded-2xl text-xs font-black flex items-center gap-2 hover:bg-blue-600 hover:text-white transition-all shadow-sm border border-blue-100">
                     <i class="fas fa-external-link-alt"></i> LIHAT SITUS
                 </a>
                 

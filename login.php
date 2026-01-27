@@ -28,7 +28,7 @@ if (isset($_POST['login'])) {
             <p class="text-gray-500 text-sm">Sistem Manajemen Dokumen Lingkungan</p>
         </div>
         <div class="mb-6">
-    <a href="home.php" class="inline-flex items-center gap-2 text-[10px] font-black text-slate-400 hover:text-green-600 uppercase tracking-[0.2em] transition-all group">
+    <a href="index.php" class="inline-flex items-center gap-2 text-[10px] font-black text-slate-400 hover:text-green-600 uppercase tracking-[0.2em] transition-all group">
         <i class="fas fa-arrow-left transition-transform group-hover:-translate-x-1"></i> 
         Kembali ke Beranda
     </a>

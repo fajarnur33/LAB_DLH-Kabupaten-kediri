@@ -10,7 +10,7 @@ $a = $query->fetch_assoc();
 
 // Jika agenda tidak ditemukan
 if (!$a) {
-    echo "<script>alert('Agenda tidak ditemukan!'); window.location='home.php';</script>";
+    echo "<script>alert('Agenda tidak ditemukan!'); window.location='index.php';</script>";
     exit;
 }
 ?>
@@ -32,7 +32,7 @@ if (!$a) {
                 <img src="logo-dlh.png" class="h-10">
                 <span class="font-black text-slate-800 uppercase tracking-tighter">Detail <span class="text-green-600">Agenda</span></span>
             </a>
-            <a href="home.php#agenda" class="text-[10px] font-black uppercase text-slate-400 hover:text-green-600 tracking-widest transition">
+            <a href="index.php#agenda" class="text-[10px] font-black uppercase text-slate-400 hover:text-green-600 tracking-widest transition">
                 <i class="fas fa-arrow-left mr-2"></i> Kembali
             </a>
         </div>

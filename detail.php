@@ -2,7 +2,7 @@
 include 'db_config.php'; 
 
 // Ambil ID dari URL
-if (!isset($_GET['id'])) { header("Location: home.php"); exit(); }
+if (!isset($_GET['id'])) { header("Location: index.php"); exit(); }
 $id = $_GET['id'];
 
 // Ambil data berita berdasarkan ID
@@ -24,7 +24,7 @@ if (!$d) { echo "Berita tidak ditemukan."; exit(); }
 
     <nav class="bg-white/90 backdrop-blur-md border-b border-slate-100 sticky top-0 z-50">
         <div class="max-w-4xl mx-auto px-6 h-20 flex justify-between items-center">
-            <a href="home.php" class="text-xs font-black text-green-600 uppercase tracking-widest flex items-center gap-2">
+            <a href="index.php" class="text-xs font-black text-green-600 uppercase tracking-widest flex items-center gap-2">
                 <i class="fas fa-arrow-left"></i> Kembali ke Beranda
             </a>
             <div class="flex items-center gap-2">
