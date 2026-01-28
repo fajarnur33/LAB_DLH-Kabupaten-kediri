@@ -5,7 +5,7 @@ if (isset($_POST['login'])) {
     if ($res->num_rows > 0) {
         $u = $res->fetch_assoc();
         $_SESSION['username'] = $u['username']; $_SESSION['role'] = $u['role'];
-        header($u['role'] == 'admin' ? "Location: admin.php" : "Location: index.php");
+        header($u['role'] == 'admin' ? "Location: admin.php" : "Location: anggota.php");
     } else { echo "<script>alert('Akses Ditolak: Periksa kembali kredensial Anda');</script>"; }
 }
 ?>
